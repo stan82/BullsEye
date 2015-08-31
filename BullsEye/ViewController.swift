@@ -20,10 +20,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var targetLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var roundLabel: UILabel!
+    @IBOutlet weak var startLabel: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.startNewRound()
+        self.startNewGame()
         self.updateLabels()
     }
     
@@ -49,11 +51,18 @@ class ViewController: UIViewController {
         scoreValue += points
         round += 1
     }
+    
+    func startNewGame() {
+        round = 0
+        scoreValue = 0
+        points = 0
+        startNewRound()
+    }
 
     @IBAction func showAlert() {
         calcuateScore()
         let message = "The value of the slider is: \(currentValue)" + "\nThe target value is: \(targetValue)" + "\nYou scored \(points) points"
-        let alert = UIAlertController(title: title,
+        let alert = UIAlertController(title: "Result",
             message: message, preferredStyle: .Alert)
         let action = UIAlertAction(title: "OK", style: .Default, handler: nil)
         alert.addAction(action)
@@ -65,6 +74,11 @@ class ViewController: UIViewController {
     @IBAction func sliderMoved(slider: UISlider) {
         println("The value of the slider is now: \(slider.value)")
         currentValue = lroundf(slider.value)
+    }
+    
+    @IBAction func startOver() {
+        startNewGame()
+        updateLabels()
     }
 }
 

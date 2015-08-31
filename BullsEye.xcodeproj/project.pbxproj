@@ -13,6 +13,7 @@
 		AA57DE391B944B3E00CB700B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA57DE381B944B3E00CB700B /* Images.xcassets */; };
 		AA57DE3C1B944B3E00CB700B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA57DE3A1B944B3E00CB700B /* LaunchScreen.xib */; };
 		AA57DE481B944B3E00CB700B /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA57DE471B944B3E00CB700B /* BullsEyeTests.swift */; };
+		AA7D51AD1B949FCB003F471B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D51AC1B949FCB003F471B /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		AA57DE411B944B3E00CB700B /* BullsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA57DE461B944B3E00CB700B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA57DE471B944B3E00CB700B /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
+		AA7D51AC1B949FCB003F471B /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				AA57DE311B944B3E00CB700B /* AppDelegate.swift */,
 				AA57DE331B944B3E00CB700B /* ViewController.swift */,
+				AA7D51AC1B949FCB003F471B /* AboutViewController.swift */,
 				AA57DE351B944B3E00CB700B /* Main.storyboard */,
 				AA57DE381B944B3E00CB700B /* Images.xcassets */,
 				AA57DE3A1B944B3E00CB700B /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA7D51AD1B949FCB003F471B /* AboutViewController.swift in Sources */,
 				AA57DE341B944B3E00CB700B /* ViewController.swift in Sources */,
 				AA57DE321B944B3E00CB700B /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				AA57DE4D1B944B3E00CB700B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA57DE4E1B944B3E00CB700B /* Build configuration list for PBXNativeTarget "BullsEyeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				AA57DE501B944B3E00CB700B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

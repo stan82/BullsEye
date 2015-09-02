@@ -14,6 +14,7 @@
 		AA57DE3C1B944B3E00CB700B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA57DE3A1B944B3E00CB700B /* LaunchScreen.xib */; };
 		AA57DE481B944B3E00CB700B /* BullsEyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA57DE471B944B3E00CB700B /* BullsEyeTests.swift */; };
 		AA7D51AD1B949FCB003F471B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7D51AC1B949FCB003F471B /* AboutViewController.swift */; };
+		AAAA5C2B1B9731D4007FFCE1 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = AAAA5C2A1B9731D4007FFCE1 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		AA57DE461B944B3E00CB700B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA57DE471B944B3E00CB700B /* BullsEyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullsEyeTests.swift; sourceTree = "<group>"; };
 		AA7D51AC1B949FCB003F471B /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		AAAA5C2A1B9731D4007FFCE1 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		AA57DE2E1B944B3E00CB700B /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				AAAA5C2A1B9731D4007FFCE1 /* BullsEye.html */,
 				AA57DE311B944B3E00CB700B /* AppDelegate.swift */,
 				AA57DE331B944B3E00CB700B /* ViewController.swift */,
 				AA7D51AC1B949FCB003F471B /* AboutViewController.swift */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA57DE371B944B3E00CB700B /* Main.storyboard in Resources */,
+				AAAA5C2B1B9731D4007FFCE1 /* BullsEye.html in Resources */,
 				AA57DE3C1B944B3E00CB700B /* LaunchScreen.xib in Resources */,
 				AA57DE391B944B3E00CB700B /* Images.xcassets in Resources */,
 			);
@@ -347,6 +351,7 @@
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,6 +362,7 @@
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
